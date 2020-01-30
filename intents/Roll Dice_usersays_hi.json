@@ -1,0 +1,56 @@
+[
+  {
+    "id": "554ecc6c-8edb-4445-b035-ee62f1d5c8d7",
+    "data": [
+      {
+        "text": "संख्या",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0dbcbb75-d1fb-4089-8273-a8ad3a877acd",
+    "data": [
+      {
+        "text": "मुझे ",
+        "userDefined": false
+      },
+      {
+        "text": "एक",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " डाइस  संख्या दें",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fe4ff827-b458-400a-93ec-577c8966b21b",
+    "data": [
+      {
+        "text": "डाइस संख्या",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "96ecaf43-e778-4f04-a950-4f09dd8ec767",
+    "data": [
+      {
+        "text": "डाइस",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "3f3bed62-3068-418b-82c1-6cc98d43d81c",
+  "name": "Roll Dice",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "655b1828-10d2-4641-9ba9-ecc88e662fa6",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "hi",
+          "speech": [
+            "संख्या है  - दो",
+            "संख्या है  - एक",
+            "संख्या है  - तीन",
+            "संख्या है  - चार",
+            "संख्या है  - पांच",
+            "संख्या है  - छह"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "One",
+            "Two",
+            "Three",
+            "Four",
+            "FIve",
+            "Six"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "d9ac0b10-55fe-4445-acea-b700f34f27b1",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "hi",
+          "speech": "नमस्ते! किंग डिसर में आपका स्वागत है!  संख्या प्राप्त करने के लिए कहें कि मुझे एक डाइस  संख्या दें"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to King Dicer! I can role a dice for you, Say roll a dice to get dice number."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
